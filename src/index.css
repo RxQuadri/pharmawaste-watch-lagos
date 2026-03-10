@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #168a5b;
+  --color-accent: #2cb67d;
+  --color-light-green: #eaf7f0;
+  --color-main-bg: #f8fafc;
+  --color-dark-text: #111827;
+}
+
+body {
+  background-color: var(--color-main-bg);
+  color: var(--color-dark-text);
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+}
