@@ -1,73 +1,73 @@
-# React + TypeScript + Vite
+# 🏥 PharmaWaste Watch Lagos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**A digital platform for tracking, reporting, and recovering expired medicines and pharmaceutical packaging waste.** 🌿✨
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚫 The Problem
+Improper pharmaceutical disposal is a silent environmental crisis in Lagos State. When expired medications or packaging are tossed into general waste, they often end up in public drainages, leading to **groundwater contamination**, **Antimicrobial Resistance (AMR)**, and severe ecological damage. Lagos needs a structured, circular approach to stop pharmaceutical leakage at the source.
 
-## React Compiler
+## 💡 The Solution
+**PharmaWaste Watch** creates a closed-loop circular economy and environmental monitoring system. By connecting residents, pharmacies, and regulators (LASEPA) on a single platform, we transform medical waste from an environmental hazard into a tracked, recovered, and safely managed resource.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Key Features by User Role
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🏠 Households (Citizens)
+*   **🤖 AI Smart Scan**: Instantly categorize waste into *Solid Medications* or *Empty Packaging* using our intelligent entry system.
+*   **🏆 Green Citizen Rewards**: A gamified achievement system with 4 badge tiers—from *Seedling* to *Lagos Guardian*—incentivizing environmental responsibility.
+*   **📍 Drop-off Locator**: Real-time map navigation to the nearest licensed "Pharma-Swap" pharmacy hub.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 💊 Pharmacies (Collection Hubs)
+*   **🔐 Secure Verification**: A closed-loop 4-digit PIN system ensures every waste intake is verified between the resident and the pharmacist.
+*   **📊 Intake Management**: Professional dashboard to track recovery volumes, schedule waste pickups, and monitor collection trends.
+*   **✨ Hub Gamification**: Rank up as an elite collection center based on recovery impact and compliance metrics.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### ⚖️ Regulators (LASEPA)
+*   **🗺️ AI Hotspot Monitoring**: An interactive map of Lagos featuring animated pulse points to identify high-volume waste clusters.
+*   **🚨 Real-time Risk Alerts**: Automated system alerts for unregistered disposal or drops in pharmacy compliance.
+*   **📈 Compliance Analytics**: Deep data visualization for the Mushin pilot program, tracking CO2 avoidance and toxic chemical sequestration.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 💻 Tech Stack
+*   **Core**: [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)
+*   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+*   **Icons**: [Lucide React](https://lucide.dev/)
+*   **Animations**: [Framer Motion](https://www.framer.com/motion/)
+*   **Routing**: [React Router](https://reactrouter.com/)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🚀 Local Setup Instructions
+
+Follow these steps to get the project running on your local machine:
+
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/your-repo/pharmawaste-watch-lagos.git
+    cd pharmawaste-watch-lagos
+    ```
+
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server**:
+    ```bash
+    npm run dev
+    ```
+
+4.  **Access the app**:
+    Open your browser and navigate to `http://localhost:5174/` (or the port specified in your terminal).
+
+---
+
+## 🌐 Live Demo
+Live Demo: [https://pharmawaste-watch-lagos.netlify.app/] 🚀
+
+---
+
+*Developed with 💚 for a cleaner, safer Lagos State.*
