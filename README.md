@@ -1,14 +1,14 @@
 # 🏥 PharmaWaste Watch Lagos
 
-**A digital platform for tracking, reporting, and recovering expired medicines and pharmaceutical packaging waste.** 🌿✨
+**A digital platform for tracking, reporting, and recovering unused, leftover and expired medicines and pharmaceutical packaging waste.** 🌿✨
 
 ---
 
 ## 🚫 The Problem
-Improper pharmaceutical disposal is a silent environmental crisis in Lagos State. When expired medications or packaging are tossed into general waste, they often end up in public drainages, leading to **groundwater contamination**, **Antimicrobial Resistance (AMR)**, and severe ecological damage. Lagos needs a structured, circular approach to stop pharmaceutical leakage at the source.
+Improper pharmaceutical disposal is a silent environmental crisis in Lagos State. When unused, leftover and expired medications or packaging are tossed into general waste, they often end up in public drainages, leading to **groundwater contamination**, **Antimicrobial Resistance (AMR)**, and severe ecological damage. Lagos needs a structured, circular approach to stop pharmaceutical leakage at the source.
 
 ## 💡 The Solution
-**PharmaWaste Watch** creates a closed-loop circular economy and environmental monitoring system. By connecting residents, pharmacies, and regulators (LASEPA) on a single platform, we transform medical waste from an environmental hazard into a tracked, recovered, and safely managed resource.
+**PharmaWaste Watch** creates a closed-loop circular economy and environmental monitoring system. By connecting residents (citizens), pharmacies (community, hospital), and regulators (LASEPA, NAFDAC) on a single platform, we transform medical waste from an environmental hazard into a tracked, recovered, and safely managed resource.
 
 ---
 
@@ -24,10 +24,10 @@ Improper pharmaceutical disposal is a silent environmental crisis in Lagos State
 *   **📊 Intake Management**: Professional dashboard to track recovery volumes, schedule waste pickups, and monitor collection trends.
 *   **✨ Hub Gamification**: Rank up as an elite collection center based on recovery impact and compliance metrics.
 
-### ⚖️ Regulators (LASEPA)
+### ⚖️ Regulators (LASEPA, NAFDAC)
 *   **🗺️ AI Hotspot Monitoring**: An interactive map of Lagos featuring animated pulse points to identify high-volume waste clusters.
 *   **🚨 Real-time Risk Alerts**: Automated system alerts for unregistered disposal or drops in pharmacy compliance.
-*   **📈 Compliance Analytics**: Deep data visualization for the Mushin pilot program, tracking CO2 avoidance and toxic chemical sequestration.
+*   **📈 Compliance Analytics**: Deep data visualization for the pilot program (Mushin LGA), tracking CO2 avoidance and toxic chemical sequestration.
 
 ---
 
