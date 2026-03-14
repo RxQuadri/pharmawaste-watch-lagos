@@ -11,13 +11,18 @@ export default function Landing() {
       {/* Header */}
       <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
+          <div className="flex items-center space-x-3">
+            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center shrink-0">
               <Leaf className="w-5 h-5 text-white" />
             </div>
-            <span className="font-bold text-xl tracking-tight text-gray-900">
-              PharmaWaste<span className="text-primary">Watch</span>
-            </span>
+            <div className="flex flex-col leading-tight mt-1">
+              <span className="font-bold text-xl text-gray-900 tracking-tight">
+                PharmaWaste Watch
+              </span>
+              <span className="text-[10px] font-medium text-gray-900 mt-0.5">
+                An Innovation of PharmaEco
+              </span>
+            </div>
           </div>
           <div className="flex items-center space-x-4">
             <Link to="/signin" className="text-sm font-medium text-gray-600 hover:text-primary transition-colors">
@@ -320,13 +325,18 @@ export default function Landing() {
       {/* Footer */}
       <footer className="bg-gray-900 py-12 px-6 border-t border-gray-800">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0 text-center md:text-left">
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
+          <div className="flex items-center space-x-3">
+            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center shrink-0">
               <Leaf className="w-5 h-5 text-white" />
             </div>
-            <span className="font-bold text-xl tracking-tight text-white">
-              PharmaWaste<span className="text-primary">Watch</span>
-            </span>
+            <div className="flex flex-col leading-tight mt-1 text-left">
+              <span className="font-bold text-xl text-white tracking-tight">
+                PharmaWaste Watch
+              </span>
+              <span className="text-[10px] font-medium text-white/70 mt-0.5">
+                An Innovation of PharmaEco
+              </span>
+            </div>
           </div>
           <div className="flex flex-wrap justify-center space-x-6 text-sm text-gray-400 font-medium">
             <Link to="/about" className="hover:text-white transition-colors">About Us</Link>

@@ -65,9 +65,14 @@ export default function DashboardLayout({ links, role, userData }: DashboardLayo
       <aside className="w-64 bg-white border-r border-gray-100 hidden md:flex flex-col h-screen sticky top-0 overflow-hidden">
         {/* Top Content: Logo and Nav */}
         <div className="flex-1 flex flex-col overflow-y-auto custom-scrollbar">
-          <div className="h-16 flex items-center px-6 border-b border-gray-100 shrink-0">
-            <Link to="/" className="font-bold text-xl text-primary tracking-tight">
-              PharmaWaste<span className="text-gray-900">Watch</span>
+          <div className="h-16 flex flex-col justify-center px-6 border-b border-gray-100 shrink-0">
+            <Link to="/" className="flex flex-col items-start leading-tight mt-1">
+              <span className="font-bold text-xl text-gray-900 tracking-tight">
+                PharmaWaste<span className="text-primary">Watch</span>
+              </span>
+              <span className="text-[10px] font-medium text-gray-900 mt-0.5">
+                An Innovation of PharmaEco
+              </span>
             </Link>
           </div>
           
